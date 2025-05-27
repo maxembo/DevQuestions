@@ -16,5 +16,5 @@ public class Report
 
     public DateTime? UpdatedAt { get; set; }
 
-    public Status Status { get; set; } = Status.Open;
+    public ReportStatus ReportStatus { get; set; } = ReportStatus.Open;
 }
